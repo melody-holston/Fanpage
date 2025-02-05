@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+body {
+  font-family: 'Syne', sans-serif;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+  background-color: #F2F2F2;
+  padding: 1em;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 20%;
+  margin: 1%;
+}
+
+.square-image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.big-col {
+  flex: 40%;
+  margin: 1%;
+}
+
+.menu-title {
+  text-align: center;
+  color: green;
+}
+
+.main-title {
+  background-color: lightgreen;
+  width: 60%;
+  margin: 0 auto 1em auto;
+  border: 3px solid darkgreen;
+  border-radius: 20px;
+  text-align: center;
+}
+
+
+#cat-title {
+  text-align: right;
+}
+
+#hr-1 {
+  width: 80%;
+}
