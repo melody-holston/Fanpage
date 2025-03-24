@@ -27,14 +27,19 @@
 }
 body {
   font-family: 'Syne', sans-serif;
+  color: black;
 }
 
+h1 {
+  color: black;
+}
 .container {
   width: 95%;
   margin: auto;
-  background-color: #F2F2F2;
   padding: 1em;
-  height: 100vh;
+  height: 80vh;
+  border-radius: 20px;
+  background-color: rgb(160, 58, 171);
 }
 
 .row {
@@ -48,7 +53,7 @@ body {
 
 .square-image {
   width: 100%;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .main-title {
